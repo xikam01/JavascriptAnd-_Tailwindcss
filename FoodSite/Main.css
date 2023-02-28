@@ -82,9 +82,40 @@ header .Callback
 {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
 }
 
+.NavigationBar>ul>li
+{
+    padding: 5px 10px;
+    list-style: none;
+}
+.NavigationBar >ul >li>a
+{
+    font-size: 1rem;
+    font-family: var(--MainFOnt);
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    transition: .3s ease-in-out;
+}
+
+.NavigationBar ul li:nth-child(1) a{
+    color: #f44336;
+}
+
+.NavigationBar ul li a:hover{ 
+    color: #f44336;
+}
+
+.Car_Sing
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+ 
 .NavigationBar>.logo
 {
     font-family:var(--SecondFOnt);
